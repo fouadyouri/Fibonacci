@@ -18,7 +18,7 @@ int main() {
 
     cout << "The Finonacci serie: " << endl;
     for(int i = 0; i < n; i++) {
-    cout << fib(i) << " ";
+      cout << fib(i) << " ";
     }
     
     return 0;
