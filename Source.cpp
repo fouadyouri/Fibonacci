@@ -6,7 +6,7 @@ int fib(int x) {
         return 0;
     if (x == 1 || x == 2)
         return 1;
-    else if(x > 1) {
+    else if(x > 2) {
         return fib(x-1)+ fib(x-2);
     }
 }
