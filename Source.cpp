@@ -16,7 +16,7 @@ int main() {
     cout << "How much numbers you want to print: " << endl;
     cin >> n;
 
-    cout << "The Finonacci serie: " << endl;
+    cout << "The Fibonacci series: " << endl;
     for(int i = 0; i < n; i++) {
       cout << fib(i) << " ";
     }
